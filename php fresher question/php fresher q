@@ -1,0 +1,319 @@
+1) what is the php?
+
+php is a hypertaxt preprocceser
+php is a widly use to open source scripting language
+php script or excuite on the server
+
+
+2) what can php do?
+
+php can ganerate dynamic web page
+php can send receive and coocies
+php can collact from the data 
+php can create open read, write, delete and close file on the server
+php can add, delete, modify data in your database
+PHP can be used to control user-access
+php can encrypt data
+
+
+3) what is the variable?
+
+variable are containers for storing information
+A variable start with $ sign followed by the name of the variable
+a variable cannot start with a number
+a variable name must start with a (small) letter or the underscrore charector
+
+4) how many data types?
+
+1) string
+2) integer
+3) float
+4) boolean
+5) array
+6) object
+7) null
+8) resource
+
+
+5) what is array and how many type?
+
+An array is a special variable that can hold many values, under a single name, and you can access the values by referring to an index number or name.
+
+1) Indexed arrays
+2) Associative arrays
+3) Multidimensional arrays
+
+
+6) what is function and how many type?
+
+A function in PHP is a block of reusable code that performs a specific task. Functions allow you to group code that is used multiple times and can be executed when called by its name. Functions help make the code more organized, modular, and easier to maintain.
+
+1) Built-in Functions
+
+strlen()
+array_push()
+isset()
+date()
+
+2) User-defined Functions
+
+Simple Function:
+Function with Parameters:
+Function with Return Value:
+Recursive Function:
+Anonymous Functions (Lambda Functions):
+Callback Functions:
+
+
+7) what is the array and string function?
+
+Array function in PHP
+
+1. array_push()
+The array_push() function inserts one or more elements to the end of an array.
+
+
+2. array_pop()
+The array_pop() function deletes the last element of an array.
+
+
+3. array_shift()
+The array_shift() function removes the first element from an array, and returns the value of the removed element.
+If the keys are numeric, all elements will get new keys, starting from 0 and increases.
+
+4. array_unshift()
+The array_unshift() function inserts new elements to an array. The new array values will be inserted in the beginning of the array.
+You can add one value, or as many as you like.
+Numeric keys will start at 0 and increase by 1. String keys will remain the same.
+
+5. count()
+The count() function returns the number of elements in an array.
+
+6. array_merge()
+7. array_slice()
+8. in_array()
+9. array_search()
+10. array_keys()
+
+String function in PHP
+
+1. strlen()
+2. str_replace()
+3. substr()
+4. strtoupper()
+5. strtolower()
+6. strpos()
+7. trim()
+8. explode()
+9. implode()
+10. sprintf()
+11. ucfirst()
+12. ucwords()
+
+
+
+8) what is switch statement?
+
+switch statement used to execute one statement from multiple conditions it works like php if-else statement  
+
+9) what is the if-else statement?
+
+if...else statement - executes some code if a condition is true and another code if that condition is false
+
+
+10) what is the loop and how many type?
+
+Often when you write code, you want the same block of code to run over and over again a certain number of times. So, instead of adding several almost equal code-lines in a script, we can use loops.
+Loops are used to execute the same block of code again and again, as long as a certain condition is true.
+
+1) while
+2) do...while
+3) for
+4) foreach
+
+11) what is the opps?
+
+OOP stands for Object-Oriented Programming.
+OOP is faster and easier to execute
+OOP provides a clear structure for the programs
+OOP helps to keep the PHP code DRY "Don't Repeat Yourself", and makes the code easier to maintain, modify and debug
+OOP makes it possible to create full reusable applications with less code and shorter development time
+
+
+12) what is the class method propertis?
+
+A class is a blueprint for creating objects. It defines the properties (variables) and methods (functions) that an object created from the class will have.
+
+1) public
+2) protected
+3) private
+
+
+
+13) what is the Constructor?
+
+A constructor allows you to initialize an object's properties upon creation of the object.
+If you create a __construct() function, PHP will automatically call this function when you create an object from a class.
+construct function starts with two underscores (__)!
+
+
+14) what is the Destructor?
+
+A destructor is called when the object is destructed or the script is stopped or exited.
+If you create a __destruct() function, PHP will automatically call this function at the end of the script.
+destruct function starts with two underscores (__)!
+
+15) what is the opretor and how many type?
+
+Operators are used to perform operations on variables and values.
+1)Arithmetic operators
+2)Assignment operators
+3)Comparison operators
+4)Increment/Decrement operators
+5)Logical operators
+6)String operators
+7)Array operators
+8)Conditional assignment operators
+
+
+16) crud command (mysql quary)?
+create 
+Create: Inserting new data into a database.
+
+read
+Read: Retrieving data from a database (also called Retrieve).
+
+delete 
+Delete: Removing data from a database.
+
+update
+Update: Modifying existing data in a database.
+
+seect
+seect: Retrieving data from a database (also called Retrieve).
+
+methods 
+
+17) what is the join methods in mysql?
+
+1. INNER JOIN
+An INNER JOIN returns records that have matching values in both tables.
+
+2. LEFT JOIN (or LEFT OUTER JOIN)
+A LEFT JOIN returns all records from the left table and the matched records from the right table. If there is no match, NULL values are returned for columns from the right table.
+
+3. RIGHT JOIN (or RIGHT OUTER JOIN)
+A RIGHT JOIN returns all records from the right table and the matched records from the left table. If there is no match, NULL values are returned for columns from the left table.
+
+4. FULL JOIN (or FULL OUTER JOIN)
+A FULL JOIN returns all records when there is a match in either the left or right table. If there is no match, NULL values are returned for non-matching rows from either table.
+
+
+5. CROSS JOIN
+A CROSS JOIN returns the Cartesian product of two tables, meaning it combines each row from the first table with all rows from the second table.
+
+6. SELF JOIN
+A SELF JOIN is a regular join but used to join a table with itself. This is useful when you need to compare rows within the same table.
+
+
+18) what is the mysql?
+
+MySQL is a database system used on the web
+MySQL is a database system that runs on a server
+MySQL is ideal for both small and large applications
+MySQL is very fast, reliable, and easy to use
+MySQL uses standard SQL
+MySQL compiles on a number of platforms
+MySQL is developed, distributed, and supported by Oracle Corporation
+
+19) what is the database mysql in php?
+
+A database is an organized collection of structured data that is stored and managed in a way that makes it easy to access, update, and manage.
+It acts as a container that holds tables, views, stored procedures, and other database objects.
+
+
+20) Types of Database Queries in PHP with MySQL?
+
+1)SELECT
+SELECT: Retrieve data from one or more tables.
+
+2)INSERT
+INSERT: Add new records to a table.
+
+3)UPDATE
+UPDATE: Modify existing records.
+
+4) DELETE
+DELETE: Remove records from a table.
+
+
+21) Types of MySQL Operators in PHP?
+
+1)Comparison Operators
+
+= (Equal to)
+<> or != (Not equal to)
+> (Greater than)
+< (Less than)
+>= (Greater than or equal to)
+<= (Less than or equal to)
+<=> (NULL-safe equal to)
+
+2) Logical Operators: Used to combine multiple conditions.
+
+AND (Logical AND)
+OR (Logical OR)
+NOT (Logical NOT)
+&& (AND, alternative syntax)
+|| (OR, alternative syntax)
+
+3) Arithmetic Operators: Used for mathematical calculations.
+
++ (Addition)
+- (Subtraction)
+* (Multiplication)
+/ (Division)
+% (Modulus)
+
+4)Bitwise Operators: Perform bit-level operations.
+
+& (Bitwise AND)
+| (Bitwise OR)
+^ (Bitwise XOR)
+~ (Bitwise NOT)
+<< (Left shift)
+>> (Right shift)
+
+5) Assignment Operators: Used to assign values to variables.
+= (Assign)
++=, -=, *=, /=, %=, etc., for compound assignments.
+
+6) String Operators:
+CONCAT() function: Used to concatenate two or more strings.
+|| or +: In some SQL modes, used for string concatenation.
+
+7) Special Operators:
+BETWEEN ... AND ...: Checks if a value is within a range.
+IN (value1, value2, ...): Checks if a value matches any value in a list.
+LIKE: Used for pattern matching with % (wildcard).
+IS NULL / IS NOT NULL: Checks for NULL values
+
+
+22) whats is sesssion?
+
+A session in PHP is a way to store information across multiple pages during a user's visit to a website. Unlike cookies, session data is stored on the server and only the session identifier is stored on the client side as a cookie. This makes sessions more secure and suitable for storing sensitive information compared to cookies.
+
+23) whats is cookies?
+
+A cookie is often used to identify a user. A cookie is a small file that the server embeds on the user's computer. Each time the same computer requests a page with a browser, it will send the cookie too. With PHP, you can both create and retrieve cookie values.
+
+
+24) what is the echo and print statement?
+
+
+
+
+
+
+
+
